@@ -1,0 +1,834 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+}
+#dropdownbox{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    position: fixed;
+   display: none;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+}
+#navcon-mobile{
+    width: 30%;
+    padding: 2%;
+}
+#navcon-mobile li{
+    width: 100%;
+    background-color: grey;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+#navcon-mobile a{
+    font-size: 20px;
+    color: black;
+}
+#exitIcon{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#menu-burger{
+    background-color: orangered;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#head{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: +6;
+  
+}
+#head-inner{
+    background-color: white;
+    width: 90%;
+    padding: 0.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    background-color: white;
+    margin: 1%;
+}
+.highlight{
+    color: orangered;
+}
+#nav-header{
+    background-color: white;
+    width:25% ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    color: black;
+}
+#signup-btn{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 15%;
+    margin: 1%;
+}
+.signup{
+   text-align: center;
+    background: orangered;
+    width: 50%;
+    padding: 5%;
+    border-radius: 50px;
+    color: white;
+    font-size: small;
+}
+#sec1{
+  background-color: white;
+  width: 100%;  
+}
+#sec1-inner{
+   background-color: whitesmoke;
+   width: 90%;
+   margin: auto;
+   display: flex; 
+   flex-direction: row;
+}
+#container1{
+    width: 50%;
+    margin: 2%;
+    background-color: orange;
+    padding-top: 8%;
+    padding: 2%;
+}
+.hero-text{
+    background: blanchedalmond;
+    width: 40%;
+    padding: 1%;
+    white-space: nowrap;
+    text-align: center;
+    color: orangered;
+    border-radius: 50px;
+}
+#container2{
+    width: 50%;
+    margin: 2%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#image{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 300px;
+    background-color: white;
+}
+.order-btn1{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.icon1{
+    background-color: lightblue;
+    padding: 5%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    background-color: lightpink;
+    padding: 6%;
+    width: 20%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.subtext{
+    font-size: xx-small;
+    color: gray;
+}
+.text1{
+    color: black;
+}
+.text{
+    color: grey;
+}
+.fresh{
+    white-space: nowrap;
+}
+.position1{
+ background: white;
+ box-shadow: 5px 5px 10px grey;
+ display: flex;
+ width: 20%;
+ gap: 8px;
+ border-radius: 10px;
+ padding: 1%;
+ position: absolute;
+ right: 12%;
+ top: 5%;
+ animation: floatimage 6s ease-in-out infinite;
+}
+.position2{
+ background: white;
+ box-shadow: 5px 5px 10px grey;
+ display: flex;
+ width: 25%;
+ gap: 8px;
+ border-radius: 10px;
+ padding: 1%;
+ position: absolute;
+ left: 10%;
+ bottom: 5%;
+ animation: floatimage 6s ease-in-out infinite;
+}
+
+@keyframes floatimage{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-1rem);
+    }
+    100%{
+       transform: translateX(0); 
+    }
+}
+#sec2{
+    width: 100%;
+    background-color: white;
+}
+#sec2-inner{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+#container{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+.box1{
+    background-color: crimson;
+    width: 33%;
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.favicon{
+    width: 15%;
+    padding: 3%;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: grey;
+}
+#sec3{
+  background-color: white;
+  width: 100%;  
+}
+#sec3-inner{
+   background-color: white;
+   width: 90%;
+   margin: auto;
+}
+#container3{
+    background-color: whitesmoke;
+    padding-top: 2%;
+    text-align: center;
+}
+#food-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.food{
+    background-color: whitesmoke;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: grey;
+    border: 1px solid grey;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+/* .food:hover{
+    background-color: orangered;
+    color: white;
+}
+.food.active{
+    background-color: orangered;
+    color: white;
+} */
+#food-container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.food-box{
+  width: 25%;
+  background-color: white;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 20px;
+  margin: 1%;
+  overflow: hidden;
+}
+
+.food-con1{
+  background-color: white;
+  width: 100%;
+  height: 180px;
+  position: relative;
+}
+.price{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: orangered;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+.food-con2{
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+}
+.food1{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15px;
+
+}
+.add{
+    background-color: orangered;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.details{
+    background-color: white;
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+    color: grey;
+}
+.foodtextbox{
+    color: grey;
+    font-weight: lighter;
+}
+.menu-btn{
+    color: orangered;
+    padding: 7px 11px;
+    border-radius: 50px;
+    border: 2px solid orangered;
+    box-shadow: 2px 2px 5px orangered;
+    font-weight: bolder; 
+    font-size: small;
+    margin-top: 15px;
+}
+#sec4{
+  width: 100%;
+  background-color: white;
+}
+#sec4-inner{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#sec-box1{
+    background-color: orangered;
+    width: 50%;
+    padding: 4%;
+    padding-left: 5%;
+}
+#sec-box2{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.text{
+    color: grey;
+}
+.menu{
+    padding-bottom: 2%;
+}
+.order-btn2{
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+.last-food{
+    background-color: black;
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+     overflow: hidden;
+}
+#last-food{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.last{
+    color:white;
+}
+#foot{
+  background-color: white;
+  width: 100%;
+}
+#foot-inner{
+  background-color: #1E1E20;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  padding-top: 3%;
+}
+.footbox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footheader{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+.food-text{
+    color: whitesmoke;
+    font-size: 13px;
+}
+.foot-text{
+    color: #fff;
+}
+.foot-text1{
+    color: orangered;
+}
+.foodbrands{
+   display: flex;
+   gap: 15px; 
+}
+.foodbrands i{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color:  #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.emailbox{
+    background-color: #1f2937;
+    padding: 4px 25px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.emailbox input{
+    border: none;
+    outline: none;
+    background-color: #1f2937;
+    color: white;
+}
+#go{
+    background-color: orangered;
+    padding: 4%;
+    border-radius: 10px;
+}
+#about{
+   width: 100%;
+}
+#about-inner{
+   width: 90%;
+   margin: auto;
+   background-color: #0b1630;
+   border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+   padding: 5%;
+
+}
+#sec5{
+    background-color: white;
+    width: 100%;
+}
+#sec5-inner{
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 2%;
+    padding-left: 5%;
+}
+.about-last{
+    background-color: whitesmoke;
+    width: 50%;
+}
+.foodimage{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.foodie{
+    color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.hey{
+    color: #0f1720;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+main{
+    background-color: whitesmoke;
+}
+.footer-bottom p{
+    color: whitesmoke;
+    font-size: 12px;
+}
+#menuSec1{
+   width: 100%;
+}
+#menu-inner{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+#menuSec2{
+   width: 100%;
+}
+#menuSec2-inner{
+   width: 90%;
+   margin: auto;
+   background-color: whitesmoke;
+}
+.why{
+    text-align: center;
+    color: #0f1720;
+    padding: 3%;
+    font-weight: bold;
+}
+.ratings{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:25px ;
+}
+.ratings1{
+    background-color: white;
+    width: 25%;
+    margin: 1%;
+    padding: 3%;
+    text-align: center;
+    border-radius: 20px;
+}
+.ratings1 i{
+    color: orange;
+    background-color: lightgoldenrodyellow;
+    padding: 2%;
+    border-radius: 50px;
+}
+.writeup{
+    color: #0f1720;
+    font-size:14px;
+}
+#menuSec3{
+   width: 100%;
+}
+#menuSec3-inner{
+   width: 90%;
+   margin: auto;
+   background-color: #0b1630;
+}
+.meet{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.hands{
+    color: whitesmoke;
+    font-size:12px; 
+    text-align: center;
+}
+#chef-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+#image-con{
+    width: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: bisque;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+  width: 100%;
+  height: 180px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image2{
+   background-color: #1f2937;
+   padding: 3%;
+   text-align: center;
+   width: 100%;
+}
+.name{
+    color: whitesmoke;
+}
+.name2{
+    color: orangered;
+    font-size: 12px;
+}
+#menubox1{
+    background-color: #0f1720;
+    width: 50%;
+    padding: 5%;
+     border-bottom-left-radius: 50px;
+}
+#menubox2{
+    background-color: #0f1720;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 50px
+}
+.menu-image{
+    background-color: #1f2937;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kitchen{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.joy{
+    color: #fff;
+}
+.one{
+    color: orangered;
+}
+.team{
+    color: whitesmoke;
+    font-size: 12px;
+}
+.statics{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+     border-top: 0.5px solid #333;
+     margin-top: 8%;
+}
+.stat{
+    color: whitesmoke;
+    font-size: 10px;
+}
+#contact{
+    width: 100%;
+}
+#contact-inner{
+    width: 90%;
+    margin: auto;
+    background-color: #0f1720;
+    padding: 3%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.contact-text{
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+}
+#form{
+    width: 100%;
+}
+#form-inner{
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 4%;
+}
+#formbox{
+    background-color: white;
+    width: 40%;
+    padding: 2%;
+    border-radius: 20px;
+}
+#formbox label{
+    color: #1f2937;
+}
+#formbox input{
+    background-color: aliceblue;
+    padding: 2.5%;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#formbox textarea{
+   background-color: aliceblue;
+   border: none;
+   border-radius: 10px;
+}
+#contact-phone{
+   background-color: #0f1720;
+   width: 25%;
+   height: 30%;
+   padding: 2%;
+   border-radius: 20px;
+}
+#contact-phone i{
+  background-color: #1f2937;
+  color: orangered;
+  padding: 2%;
+  border-radius: 10px;
+  
+}
+#contact-phone h3{
+    color: #fff;
+    text-align: center;
+}
+.place{
+    color: #fff;
+}
+.contact-box p{
+    color: whitesmoke;
+    font-size: 12px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 2%;
+}
+.tact{
+    color: white;
+    text-align: center;
+}
+.contact-menu{
+    color: orangered;
+}
+#send{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.about-menu{
+    background-color: orange;
+    color: orangered;
+}
+.about-text{
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+}
+.our{
+    color: white;
+    text-align: center;
+}
+
